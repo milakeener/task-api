@@ -10,8 +10,6 @@
     "migrate:deploy": "npx prisma migrate deploy",
     "seed": "node prisma/seed.js",
     "bundle:openapi": "npx @redocly/cli bundle docs/openapi.yaml -o public/bundled.yaml"
-    ,
-    "postinstall": "node prisma/seed.js"
   },
   "keywords": [
     "node",
